@@ -1,0 +1,307 @@
+/*Start Header*/
+header {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  margin: 5px;
+}
+
+.header1 {
+  width: 15%;
+
+}
+
+.header {
+  float: left;
+}
+
+.header2 {
+	margin: auto;
+	padding: auto;
+	width: 55%;
+	margin-left: 20px;
+}
+
+.header3 {
+	width: 27%;
+	overflow: auto;
+}
+/*End Header*/
+
+
+/*Start Nav*/
+.nav1 {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	list-style-type: none;
+	background-color: #1160ae;
+	clear: left;
+}
+
+.nav2 {
+	float: left;
+	display: inline-block;
+}
+
+.nav2 a {
+	display: inline-block;
+	color: white;
+	padding: 15px 28px;
+	text-decoration: none;
+	margin-top: 2px;
+	font-weight: bold;
+}
+
+.nav2 a:hover {
+	background-color: #f9f9f9;
+	color: #1160ae;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+.nav3 {
+	left: 0;
+	position: absolute;
+	background-color: #f9f9f9;
+}
+
+#tin_tuc .nav3 {
+	display: block;
+}
+
+.nav3 a {
+	padding: 10px 0px;
+	color: #1160ae;
+	text-decoration: none;
+}
+
+.nav3 a h1 {
+	font-size: 20px;
+	margin: 0;
+	padding: 0 30px;
+	border-right: 1.2px solid #1160ae;
+}
+
+#trang_chu:hover .nav3 {
+	display: block;
+}
+
+#tin_tuc:hover .nav3 {
+	display: block;
+}
+/*End Nav*/
+
+
+/*Start Content*/
+.content {
+	margin-top: 42px;
+	width: 100%;
+	height: 1400px;
+	clear: left;
+}
+
+.content01 {
+	width: 65%;
+	height: 1400px;
+	float: left;
+	margin: 5px;
+	border-radius: 10px;
+	border: 1px solid #b3cccc;
+}
+
+.content01 h4 {
+	padding: 7px 10px;
+	margin: 0;
+	border-bottom: 2px solid #ff751a;
+}
+
+.content01 h4 p {
+	margin:0 ;
+	color: #5c8a8a;
+}
+.content01_title {
+	font-size: 35px;
+	color: blue;
+	text-align: center;
+}
+.content01_01 {
+	font-size: 20px;
+	color: #6b6b47;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+.content01_icon {
+	float: right;
+	padding-right: 15px;
+	color: #8080ff;
+	padding-bottom: 15px;
+}
+
+.content01_form_title {
+	clear: right;
+	padding: 7px 7px;
+	background-color: #b3cccc;
+	margin: 15px 10px;
+	border-radius: 3px;
+	font-weight: bold;
+	color: #1160ae;
+}
+
+.content01_content {
+	margin: 35px 15px;
+	color: #1160ae;
+}
+
+.row {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 17px;
+}
+
+.col_15 {
+	float: left;
+	width: 15%;
+}
+
+.col_50 {
+	float: left;
+	width: 300px;
+	margin: 0;
+}
+
+.content_img {
+	width: 97%;
+	height: 250px;
+	padding: 10px;
+}
+.content01_02 {
+	font-size: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+
+}
+.content01_03 {
+	font-size: 20px;
+	text-align: center;
+	color: blue;
+	padding-top: 5px;
+	margin: 0;
+
+}
+.content02 {
+	margin: 5px;
+	width: 33%;
+	float: left;
+}
+
+.content02_1 {
+	width: 100%;	
+	border-radius: 10px;
+	border: 1px solid #b3cccc;
+}
+
+.content02_1_cnt {
+	padding: 10px;
+	margin:0px;
+	border-bottom: 1px solid #d1e0e0;
+}
+
+.cont2 h3 {
+	margin: 0;
+	color: white;
+	background-color: #ff751a;
+	padding: 5px 10px 4px 10px;
+	font-size: 25px;
+	text-align: center;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.cont1 h3{
+	margin: 0;
+	color: #1160ae;
+	background-color: #d1e0e0;
+	padding: 5px 10px 4px 10px;
+	font-size: 25px;
+	text-align: center;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.cont1 {
+	height: 150px;
+}
+
+.cont2 {
+	margin-top: 10px;
+	height: 400px;
+}
+
+.content02_2 {
+	margin-top: 10px;
+	width: 100%;
+	height: 180px;
+	border: 1px solid #b3cccc;
+}
+
+
+/*End Content*/
+
+/*Start Footer*/
+footer {
+	clear: left;
+	margin-top: 25px;
+	width: 100%;
+	height: 70px;
+	margin-bottom: 20px;
+}
+
+.footer01 {
+	width: 40%;
+	height: 50%;
+	margin: auto;
+	padding: auto;
+}
+
+.footer01 ul {
+	list-style-type: none;
+	text-align: center;
+	padding-left: 60px;
+}
+
+.fot1 {
+	float: left;
+	display: inline-block;
+	padding: 0;	
+	color: #ff751a;
+}
+
+.fot1 h1 {
+	margin-top: 13px;
+	border-right: 2px solid #ff751a;
+	padding: 0px 23px;
+	font-size: 14px;
+}
+
+.footer02 {
+	width: 100%;
+	height: 50%;
+	background-color: #ff751a;
+	clear: left;
+}
+
+.fot2 {
+	width: 32%;
+	height: 90%;
+	float: left;
+}
+
+.fot2 p {
+	color: white;
+	font-size: 15px;
+	margin: 10px 15px;
+}
+/*End Footer*/
