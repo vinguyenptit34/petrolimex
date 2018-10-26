@@ -22,10 +22,17 @@ header {
 	margin-left: 20px;
 }
 
+.header2 div b{font-size: 2.7vw; color: #0000CD;}
+.header2 div p{font-size: 1.7vw;color: #ff8000;margin-top: 0.5px;}
+
 .header3 {
 	width: 27%;
 	overflow: auto;
 }
+
+.header3 div p {color: #5f5f5f;font-size: 15px;float: left;margin-top: 12px;}
+.header3 div input{float: right;margin-top: 5px;width: 50%;height: 20px;}
+.header3 div img{width:40px;height:28px;float: right;}
 /*End Header*/
 
 
@@ -59,6 +66,9 @@ header {
 	border-top-right-radius: 5px;
 	border-top-left-radius: 5px;
 }
+
+.nav_frist {background-color: #f9f9f9;color: #1160ae;border-top-right-radius: 5px;border-top-left-radius: 5px;}
+
 
 .nav3 {
 	left: 0;
@@ -106,6 +116,8 @@ section {
 	margin: 5px;
 }
 
+.section01 img {border-top-left-radius: 40px; border-bottom-right-radius: 40px;height:397px;width: 100%;}
+
 .section02 {
 	margin: 5px;
 	width: 33%;
@@ -127,13 +139,13 @@ section {
 	background-color: white;
 }
 
-.sec02_td1 {
-	padding-left: 15px;
-}
+.sec02 div {border: 1px solid #b3cccc; width: 93%;height: 97%;margin: 15px 15px;}
 
-.sec02_td2{
-	text-align: center;
-}
+.sec02 div div h1{color: #ff8000;font-size: 20px;text-align: center;}
+
+.sec02 div div p{text-align: center;}
+
+.sec02 div div{float:left;width: 33%;border: none;margin: 0}
 
 .sec03 {
 	margin-bottom: 0px;
@@ -198,6 +210,10 @@ section {
 	width: 285px;
 }
 
+.content01_ct a{
+	font-size: 17px;
+}
+
 .content01 a {
 	text-decoration: none;
 	color: black;
@@ -237,6 +253,8 @@ section {
 	border-bottom-left-radius: 10px;
 	background-color: white;
 }
+
+.con02 iframe{width: 98%;height: 93%;margin: 3px 3px;}
 
 /*End Content*/
 
